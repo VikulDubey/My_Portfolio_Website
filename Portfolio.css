@@ -1,0 +1,35 @@
+
+body{
+  overflow: hidden;
+}
+ul li a{
+  color: #a0a0a0;
+}
+ul li a:hover {
+  color: black;
+}
+.maindiv img{
+  width: 4rem;
+}
+.maindiv img {
+  width: 4rem;
+}
+
+.details {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.details h1 {
+  text-align: center;
+}
+.details p {
+  text-align: justify;
+}
+.gif {
+  margin: 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

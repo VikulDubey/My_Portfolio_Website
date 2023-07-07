@@ -1,0 +1,87 @@
+
+body{
+  overflow: hidden;
+}
+ul li a{
+  color: #a0a0a0;
+}
+ul li a:hover {
+  color: black;
+}
+.maindiv img{
+  width: 4rem;
+}
+.intro {
+  margin: 0% 4%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* border: 2px solid black; */
+  height: 28rem;
+}
+.illustration {
+  width: 50%;
+  margin-right: 0 2rem;
+}
+.illustration video {
+  width: 28rem;
+}
+.introduction {
+  width: 32rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin: 0 2%;
+  transform: translate(15px, -50px);
+}
+.introduction h2 {
+  color: black;
+  margin: 2rem 0px;
+  animation: fadein 3s ease 1 forwards;
+  position: relative;
+}
+@keyframes fadein {
+  from {
+    opacity: 0;
+    top: -12px;
+  }
+  to {
+    opacity: 1;
+    top: 0;
+  }
+}
+.introduction span {
+  color: #ba68c8;
+}
+.btn {
+  position: absolute;
+  left: 0;
+  bottom: -75px;
+}
+.btn input[type="submit"] {
+  border-radius: 0.4rem;
+  border: 0;
+  outline: none;
+  padding: 0.4rem 0.8rem;
+  background: #5d9c59;
+  color: white;
+  font-weight: bold;
+  border: 1px solid white;
+  position: relative;
+  animation: fadeinbtn 3s ease 1 forwards;
+}
+@keyframes fadeinbtn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+.btn input[type="submit"]:hover {
+  color: #5d9c59;
+  background-color: white;
+  cursor: pointer;
+  border: 1px solid #5d9c59;
+}
